@@ -1,0 +1,13 @@
+a = int(input("ENTER THE VALUE OF num1: "))
+b = int(input("ENTER THE VALUE OF num2: "))
+
+big = max(a, b)
+step = big
+
+while True:
+    if big % a == 0 and big % b == 0:
+        break
+    else:
+        big = big + step
+
+print("LCM =", big)
