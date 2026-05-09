@@ -1,0 +1,11 @@
+import numpy as np
+import matplotlib.pyplot as plt
+overs = np.arange(1, 11)
+scores = [4, 6, 2, 8, 19, 21, 6, 10, 9, 10]
+plt.bar(overs, scores, color="ORANGE")
+plt.title("SRH MATCH SCORE VS PBSK")
+plt.xlabel("OVERS FROM 1 TO 10")
+plt.ylabel("RUNS BY OVERS")
+plt.xticks(overs)
+plt.grid(axis='y', linestyle="--")
+plt.show()
