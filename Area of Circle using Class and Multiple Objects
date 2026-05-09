@@ -1,0 +1,15 @@
+class circle:
+  def __init__(self):
+    x=int(input("enter the radius:  "))
+    self.r=x          #instance variable
+  def display(self):
+    print(" Area of the circle is ", 3.14*self.r*self.r**2)
+
+a=int(input("Enter the number of circle:  "))
+l=[]
+for i in range(a):
+  c=circle()
+  l.append(c)
+  c.display()
+  print("-------------******-------------")
+ # print(" Sum(l[0].display())")
