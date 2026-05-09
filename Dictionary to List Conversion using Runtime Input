@@ -1,0 +1,14 @@
+b = {}
+
+n = int(input("Enter number of elements: "))
+
+for i in range(n):
+    key = input("Enter key: ")
+    value = int(input("Enter value: "))
+    b[key] = value
+
+A1 = list(b.keys())
+A2 = list(b.values())
+
+print("Keys List:", A1)
+print("Values List:", A2)
